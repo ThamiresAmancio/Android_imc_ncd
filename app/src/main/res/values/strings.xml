@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IMC - APP </string>
+
+
+    <string-array name="faixaEtariaAtividade">
+        <item>SELECIONE UMA OPÇÃO</item>
+        <item>Atividade Leve</item>
+        <item>Atividade Moderado</item>
+        <item>Atividade Intensa</item>
+    </string-array>
+</resources>
