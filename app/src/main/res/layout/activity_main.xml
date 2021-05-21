@@ -32,7 +32,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginEnd="8dp"
-            app:cardBackgroundColor="@android:color/holo_purple"
+            app:cardBackgroundColor="#0277bc"
             app:cardCornerRadius="16dp">
 
             <LinearLayout
@@ -62,7 +62,8 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
-            app:cardBackgroundColor="@android:color/holo_purple"
+            app:cardBackgroundColor="#0277bc"
+
             app:cardCornerRadius="16dp">
 
             <LinearLayout

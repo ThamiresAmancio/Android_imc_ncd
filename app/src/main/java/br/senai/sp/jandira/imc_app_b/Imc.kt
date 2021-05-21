@@ -20,7 +20,7 @@ fun obterStatus(imc: Double) : List<String> {
         resultados= listOf("Obesidade Grau II","Risco de apneia do sono e falta de ar.")
 
     } else {
-        resultados= listOf("Obesidade Grau III","Risco de refluxp,mobilidade reduzida,escaras,diabetes,infarto e AVC.")
+        resultados= listOf("Obesidade Grau III","Risco de refluxo,mobilidade reduzida,escaras,diabetes,infarto e AVC.")
 
     }
 

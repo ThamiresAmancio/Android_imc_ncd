@@ -3,9 +3,9 @@
 
 
     <string-array name="faixaEtariaAtividade">
-        <item>SELECIONE UMA OPÇÃO</item>
-        <item>Atividade Leve</item>
-        <item>Atividade Moderado</item>
-        <item>Atividade Intensa</item>
+        <item>SELECIONE UMA OPÇAÕ</item>
+        <item> Leve</item>
+        <item> Moderado</item>
+        <item> Intensa</item>
     </string-array>
 </resources>

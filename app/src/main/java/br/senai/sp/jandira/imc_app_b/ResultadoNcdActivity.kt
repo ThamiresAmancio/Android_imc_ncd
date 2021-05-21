@@ -17,19 +17,19 @@ class ResultadoNcdActivity : AppCompatActivity() {
 
         val peso = intent.getIntExtra("peso",0)
         val idade = intent.getIntExtra("idade", 0)
-        val sexo = intent.getIntExtra("sexo", 0)
         val tipoAtividade = intent.getStringExtra("tipoAtividade")
+        val sexo = intent.getIntExtra("sexo", 0)
 
 
 
-        val ncd = calcularNcd(peso,idade,tipoAtividade,sexo)
+
+        val ncd = calcularNcd(peso,idade, tipoAtividade!!,sexo)
         textViewNcd.text = String.format("%.1f",ncd)
-
 
         val dicas = dicasNcd()
 
         textViewTitulo.text = dicas[0]
-        text_dica.text = dicas[1]
+        TextViewDica.text = dicas[1]
 
 
 
